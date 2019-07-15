@@ -1,3 +1,8 @@
 *{
-  background-color: #D2DEEE;
+  background-color: #EBEDF1;
+  font-family: Andale Mono, monospace;
+}
+.chart{
+  margin-left: 100px;
+  margin-top: 35px;
 }

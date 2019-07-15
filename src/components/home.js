@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './header';
 import Sidebar from './sidebar';
 import '../css/styles.css';
+import Chart from './chart';
 
 class Home extends React.Component {
 
@@ -10,6 +11,7 @@ class Home extends React.Component {
       <div className="Home">
       <Header/>
       <Sidebar/>
+      <div className="chart"> <Chart/></div>
       </div>
     );
   }
