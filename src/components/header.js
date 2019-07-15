@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../img/logo.png';
 import '../css/header.css';
 
 class Header extends React.Component {
@@ -7,7 +8,8 @@ class Header extends React.Component {
     return (
       <div className="Header">
       <ul>
-  <li><a class="active" href="#home">StackLine</a></li>
+
+  <li><a> <img src={logo} height= "20px" alt="logo" /> StackLine</a></li>
 
 </ul>
       </div>
