@@ -8,12 +8,16 @@ export default class Sidebar extends React.Component {
     return (
       <div className="Sidebar">
       <div className="sidenav">
-<img src={ninja} height="100px" alt="ninja"/>
+<img src={ninja} height="150px" alt="ninja"/>
 <a href="#">Shark Ninja</a>
 <p> Magic Bullet Nutri-Bullet 12-piece</p>
 <p>High-Speed Blender/Mixer System </p>
-<a href="#overview">OVERVIEW</a>
-<a href="#sales">SALES</a>
+<hr size="4"/>
+<p> Pantry | Obsolete | Blender </p>
+<p>Lightning Deal </p>
+<hr size="4"/>
+<a href="#overview">Overview</a>
+<a className="active" href="#sales">Sales</a>
 
 </div>
       </div>

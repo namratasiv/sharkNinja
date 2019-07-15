@@ -26,3 +26,9 @@ p{
   background-color: white;
   font-size: 12px;
 }
+.active{
+  color: #729BEC;
+}
+hr{
+  color: #EBEDF1;
+}

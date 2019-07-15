@@ -3,8 +3,13 @@ import Header from './header';
 import Sidebar from './sidebar';
 import '../css/styles.css';
 import Chart from './chart';
-
+import { connect } from 'redux';
 class Home extends React.Component {
+  constructor(props){
+    super(props);
+
+
+  }
 
   render() {
     return (
@@ -15,6 +20,9 @@ class Home extends React.Component {
       </div>
     );
   }
+}
+function mapStateToProps(state) { return {
+data: state.data };
 }
 
 export default Home;
